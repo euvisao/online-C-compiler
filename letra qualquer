@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char letra_qlqr = 'v';
+    
+    printf("o valor letra_qlqr é: %c", letra_qlqr);
+    
+    return 0;
+}
