@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int numero_inteiro = 5;
+     printf ("A variável numero_inteiro tem o valor: %d ", numero_inteiro);
+    
+    return 0;
+}
