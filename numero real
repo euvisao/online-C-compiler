@@ -4,7 +4,7 @@
 int main() {
     float numero_real = 123.456;
     
-    printf("a variavel numero_real tem o valor: %f", numero_real);
+    printf("a variavel numero_real tem o valor: %.2f", numero_real);
     
     return 0;
 }
