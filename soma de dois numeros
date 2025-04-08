@@ -1,0 +1,13 @@
+#include <stdlib.h>
+int mais() {
+    int numero1, numero2, soma;
+    printf("digite um numero qualquer: ");
+    scanf("%d", &numero1);
+    print("digite um numero qualquer: ");
+    scanf("%d", &numero2);
+    
+    soma = numero1 + numero2 
+    
+    printf("a soma dos dois numeros é: %d", soma);
+    return 0;
+}
