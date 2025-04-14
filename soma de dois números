@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+   int a, b;
+   
+   printf("digite um número qualquer: ");
+   scanf("%d", &a);
+   printf("digite outro número qualquer: ");
+   scanf("%d", &b);
+   
+   printf("\na soma dos dois números é: %d", a + b);
+   printf("\na subtração dos dois números é: %d", a - b);
+   printf("\na multiplicação dos dois números é: %d", a * b);
+   printf("\na divisão dos dois números é: %d", a / b);
+   
+   return 0;
+}
