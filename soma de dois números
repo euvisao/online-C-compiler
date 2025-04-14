@@ -10,9 +10,17 @@ int main() {
    printf("digite outro número qualquer: ");
    scanf("%d", &b);
    
+   printf("\n-------------------------------");
+   printf("\n-soma-");
    printf("\na soma dos dois números é: %d", a + b);
+   printf("\n-------------------------------");
+   printf("\n-subtração-");
    printf("\na subtração dos dois números é: %d", a - b);
+   printf("\n-------------------------------");
+   printf("\n-multiplicação-");
    printf("\na multiplicação dos dois números é: %d", a * b);
+   printf("\n-------------------------------");
+   printf("\n-divisão-");
    printf("\na divisão dos dois números é: %d", a / b);
    
    return 0;
