@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+   int a, b, c;
+   
+   printf("-------------------------------\n");
+   printf("digite um número qualquer: ");
+   scanf("%d", &a);
+   printf("-------------------------------\n");
+   printf("digite outro número qualquer: ");
+   scanf("%d", &b);
+   printf("-------------------------------\n");
+   printf("digite outro número qualquer: ");
+   scanf("%d", &c);
+   
+   int multiplicacao = a * b * c;
+   
+   printf("\n----------------------------------");
+   printf("\na multiplicação dos números é: %d", multiplicacao);
+   printf("\n----------------------------------");
+   
+   
+   return 0;
+}
