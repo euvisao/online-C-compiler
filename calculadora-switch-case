@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+  int op, a, b;
+  
+  printf("1 - SOMA\n");
+  printf("2 - SUBTRAÇÃO\n");
+  printf("3 - MULTIPLICAÇÃO\n");
+  printf("4 - DIVISÃO\n");
+  
+  printf("----------------------\n");
+  printf("escolha uma operação: ");
+  scanf("%d", &op);
+  
+  printf("----------------------\n");
+  printf ("Digite um valor: ");
+  scanf("%d", &a);
+  printf("----------------------\n");
+  printf ("Digite um valor: ");
+  scanf("%d", &b);
+  printf("----------------------\n");
+  
+  switch ( op ) {
+      
+    case 1 :
+    printf ("a soma é: %d\n", a + b);
+    break;
+    
+    case 2 :
+    printf ("a subtração é: %d\n", a - b);
+    break;
+    
+    case 3 :
+    printf ("a multiplicação é: %d\n", a * b);
+    break;
+    
+    case 4 :
+    printf ("a divisão é: %d\n", a / b);
+    break;
+    
+    default :
+    printf ("valor invalido!\n");
+  }
+  
+  return 0;
+}
