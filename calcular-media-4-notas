@@ -26,5 +26,11 @@ int main() {
    printf("a sua média é: %.2f\n", media);
    printf("-------------------------------\n");
    
+   if (media > 6) {
+  printf("você está aprovado.");
+}  else {
+  printf("você está reprovado.");
+}
+   
    return 0;
 }
