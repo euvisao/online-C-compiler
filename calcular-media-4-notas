@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+   float a, b, c, d;
+   
+   // evitar colocar traços em cima do scanf
+   
+   printf("-------------------------------\n");
+   printf("digite a primeira nota: ");
+   scanf("%f", &a);
+   printf("-------------------------------\n");
+   printf("digite a segunda nota: ");
+   scanf("%f", &b);
+   printf("-------------------------------\n");
+   printf("digite a terceira nota: ");
+   scanf("%f", &c);
+   printf("-------------------------------\n");
+   printf("digite a quarta nota: ");
+   scanf("%f", &d);
+   printf("-------------------------------\n");
+   
+   float media = (a + b + c + d) / 4;
+   
+   printf("a sua média é: %.2f\n", media);
+   printf("-------------------------------\n");
+   
+   return 0;
+}
