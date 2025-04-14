@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+   float a, b;
+   
+   printf("digite um número qualquer: ");
+   scanf("%f", &a);
+   printf("digite outro número qualquer: ");
+   scanf("%f", &b);
+   
+   float divisao = a / b;
+   
+   printf("\na divisão dos números é: %.3f", divisao);
+  
+   return 0;
+}
