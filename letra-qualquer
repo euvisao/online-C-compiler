@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    char letra_qlqr = 'v';
+    char letra_qualquer = 'v';
     
-    printf("o valor letra_qlqr é: %c", letra_qlqr);
+    printf("o valor letra_qualquer é: %c", letra_qualquer);
     
     return 0;
 }
