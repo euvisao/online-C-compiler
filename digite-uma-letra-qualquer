@@ -6,7 +6,7 @@ int main() {
     int letra;
     printf("digite uma letra qualquer: ");
     scanf("%c", &letra);
-    printf("o número digitado foi: %c", letra);
+    printf("a letra digitada foi: %c", letra);
     
     return 0;
 }
