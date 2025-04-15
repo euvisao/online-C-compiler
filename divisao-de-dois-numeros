@@ -5,13 +5,16 @@ int main() {
     
    float a, b;
    
+   printf("---------------------------\n");
    printf("digite um número qualquer: ");
    scanf("%f", &a);
+   printf("---------------------------\n");
    printf("digite outro número qualquer: ");
    scanf("%f", &b);
    
    float divisao = a / b;
    
+   printf("-----------------------------\n");
    printf("\na divisão dos números é: %.3f", divisao);
   
    return 0;
