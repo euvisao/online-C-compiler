@@ -24,6 +24,8 @@ int main() {
   
   switch ( op ) {
       
+      //IMPORTANTE: colocar o "break;" no final de cada case - sem o break o sistema compila todas as contas.
+      
     case 1 :
     printf ("a soma é: %d\n", a + b);
     break;
