@@ -5,7 +5,7 @@ int main() {
     
    float a, b, c, d;
    
-   // evitar colocar traços em cima do scanf
+   //IMPORTANTE: evitar colocar traços em cima do "scanf"
    
    printf("-------------------------------\n");
    printf("digite a primeira nota: ");
