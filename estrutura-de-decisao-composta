@@ -1,0 +1,24 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+int main() {
+    
+    // estrutura de decisão composta
+    
+    int x = 10;
+    
+    if (x > 10) {
+        
+        printf("o numero digitado é maior que 10.");
+        
+    } else if (x < 10) {
+        
+        printf("o numero digitado é menor que 10.");
+        
+    } else {
+        
+        printf("o numero digitado é 10.");
+    }
+    
+    return 0;
+}
