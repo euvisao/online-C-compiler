@@ -1,0 +1,27 @@
+# include <stdio.h>
+# include <stdlib.h>
+# include <stdbool.h> // trabalhar com operadores lógicos (e, ou)
+
+int main() {
+    
+    bool esta_chovendo = true, e_de_noite = true;
+    if (esta_chovendo && e_de_noite) {
+        
+        printf("não vou sair nem a pau.");
+        
+    } else if (esta_chovendo && !e_de_noite) { 
+        // ! = negação
+        printf("vou correr no parque.");
+        
+    } else if (!esta_chovendo && e_de_noite) {
+        
+        printf("irei para o largo da ordem.");
+        
+    } else { // n esta chovendo e é dia
+        
+        printf("vou ao churrasco dos alunos.");
+        
+    }
+    
+    return 0;
+}
