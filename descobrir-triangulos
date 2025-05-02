@@ -4,13 +4,22 @@
 
 int main() {
     
-    int a = 5;
-    int b = 5;
-    int c = 5;
+    int a, b, c;
+    
+    printf("-------------------------------------\n");
+    printf("digite o valor do primeiro ângulo: ");
+    scanf("%d", &a);
+    printf("-------------------------------------\n");
+    printf("digite o valor do segundo ângulo: ");
+    scanf("%d", &b);
+    printf("-------------------------------------\n");
+    printf("digite o valor do terceiro ângulo: ");
+    scanf("%d", &c);
+    printf("-------------------------------------\n");
     
     if ((a+b>c)&&(a+c>b)&&(b+c>a)){
         
-        if ( (a == b) && (b == c) ){
+        if ((a == b) && (b == c) ){
             printf("triangulo equilatero.");
         } else if ((a == b ) || (a == c) || ( b == c)){
             printf("triangulo isosceles.");
@@ -18,7 +27,7 @@ int main() {
             printf("triangulo escaleno.");
         }
     } else {
-        printf ("nao e um triangulo");
+        printf ("não é um triangulo");
     }
     return 0;
 }
