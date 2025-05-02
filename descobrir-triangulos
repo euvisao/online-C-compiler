@@ -1,0 +1,24 @@
+# include <stdio.h> 
+# include <stdlib.h>
+# include <stdbool.h>
+
+int main() {
+    
+    int a = 5;
+    int b = 5;
+    int c = 5;
+    
+    if ((a+b>c)&&(a+c>b)&&(b+c>a)){
+        
+        if ( (a == b) && (b == c) ){
+            printf("triangulo equilatero.");
+        } else if ((a == b ) || (a == c) || ( b == c)){
+            printf("triangulo isosceles.");
+        } else {
+            printf("triangulo escaleno.");
+        }
+    } else {
+        printf ("nao e um triangulo");
+    }
+    return 0;
+}
