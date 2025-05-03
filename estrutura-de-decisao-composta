@@ -5,7 +5,12 @@ int main() {
     
     // estrutura de decisão composta
     
-    int x = 10;
+    int x;
+    
+    printf("---------------------------------\n");
+    printf("digite um valor: ");
+    scanf("%d", &x);
+    printf("---------------------------------\n");
     
     if (x > 10) {
         
