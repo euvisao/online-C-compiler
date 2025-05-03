@@ -19,10 +19,10 @@ int main() {
     
     if ((a+b>c)&&(a+c>b)&&(b+c>a)){ // REGRAS PARA SER UM TRIANGULO: (a+b>c) (a+c>b) (b+c>a)
         
-        if ((a == b) && (b == c) ){ // SE (a) tem valor = (b) e (b) tem valor = (c) é: trinagulo equilatero. (todos os angulos tem o mesmo valor)
+        if ( (a == b) && (b == c) ){ // SE (a) tem valor = (b) e (b) tem valor = (c) é: trinagulo equilatero. (todos os angulos tem o mesmo valor)
             printf("triangulo equilatero.");
             
-        } else if ((a == b ) || (a == c) || ( b == c)){ // SE (a) tem valor = (b) OU (a) tem valor = (c) OU (b) tem valor = (c) é: triangulo isosceles. (somente dois angulos tem o mesmo valor)
+        } else if ( (a == b ) || (a == c) || ( b == c) ){ // SE (a) tem valor = (b) OU (a) tem valor = (c) OU (b) tem valor = (c) é: triangulo isosceles. (somente dois angulos tem o mesmo valor)
             printf("triangulo isosceles.");
             
         } else { // SE (a) tem valor DIFERENTE de (b) e (b) tem valor DIFERENTE de (c) é: triangulo escaleno. (nenhum angulo tem o mesmo valor)
