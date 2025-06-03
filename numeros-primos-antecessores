@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+bool ehprimo(int n) {
+    if (n <= 1) return false;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0)
+            return false;
+    }
+    return true;
+}
+
+int main() {
+    int limite;
+
+    printf("digite um número inteiro maior que 1: ");
+    scanf("%d", &limite);
+
+    if (limite <= 1) {
+        printf("não há números primos menores ou iguais a %d.\n", limite);
+        return 0;
+    }
+
+    printf("números primos até %d:\n", limite);
+    for (int i = 2; i <= limite; i++) {
+        if (ehprimo(i)) {
+            printf("%d ", i);
+        }
+    }
+
+    printf("\n");
+    return 0;
+}
