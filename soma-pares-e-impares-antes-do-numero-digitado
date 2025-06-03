@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int numero, somapares = 0, somaimpares = 0;
+
+    printf("digite um número inteiro positivo: ");
+    scanf("%d", &numero);
+
+    if (numero <= 0) {
+        printf("por favor, digite um número maior que zero.\n");
+        return 0;
+    }
+    
+    //loop para somar pares e impares que vem antes do numero digitado
+    
+    for (int i = 1; i < numero; i++) {
+        if (i % 2 == 0)
+            somapares += i;
+        else
+            somaimpares += i;
+    }
+
+    printf("soma dos números pares menores que %d: %d\n", numero, somapares);
+    printf("soma dos números ímpares menores que %d: %d\n", numero, somaimpares);
+
+    return 0;
+}
