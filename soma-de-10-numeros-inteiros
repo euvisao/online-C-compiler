@@ -1,0 +1,38 @@
+# include <stdio.h>
+
+int main() {
+    
+    int a, b, c, d, e, f, g, h, i, j, soma;
+    
+    // variáveis (a, b, c, d, e, f, g, h, i, j) servem para nomear cada número selecionado.
+    // variável "soma" serve para indicar para o programa a soma de todas as variáveis para dar o resultado para o usuário.
+    
+    printf("digite o 1° número inteiro: ");
+    scanf("%d", &a);
+    printf("digite o 2° número inteiro: ");
+    scanf("%d", &b);
+    printf("digite o 3° número inteiro: ");
+    scanf("%d", &c);
+    printf("digite o 4° número inteiro: ");
+    scanf("%d", &d);
+    printf("digite o 5° número inteiro: ");
+    scanf("%d", &e);
+    printf("digite o 6° número inteiro: ");
+    scanf("%d", &f);
+    printf("digite o 7° número inteiro: ");
+    scanf("%d", &g);
+    printf("digite o 8° número inteiro: ");
+    scanf("%d", &h);
+    printf("digite o 9° número inteiro: ");
+    scanf("%d", &i);
+    printf("digite o 10° número inteiro: ");
+    scanf("%d", &j);
+    
+    (soma = a + b + c + d + e + f + g + h + i + j);
+    // somando todas as variáveis
+    
+    printf("a soma dos números é igual a: %d ", soma);
+    // resposta da soma para o usuário 
+    
+    return 0;
+}
