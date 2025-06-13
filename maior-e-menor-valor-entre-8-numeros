@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int numeros[8];
+    int i, maior, menor;
+    int posmaior, posmenor;
+
+    for(i = 0; i < 8; i++) {
+        printf("Digite o %dº número: ", i+1);
+        scanf("%d", &numeros[i]);
+    }
+
+    maior = menor = numeros[0];
+    posmaior = posmenor = 0;
+
+    for(i = 1; i < 8; i++) {
+        if(numeros[i] > maior) {
+            maior = numeros[i];
+            posmaior = i;
+        }
+        if(numeros[i] < menor) {
+            menor = numeros[i];
+            posmenor = i;
+        }
+    }
+
+    printf("\nMaior valor: %d (posição %d)\n", maior, posmaior);
+    printf("Menor valor: %d (posição %d)\n", menor, posmenor);
+
+    return 0;
+}
